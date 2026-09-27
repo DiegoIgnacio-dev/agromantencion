@@ -10,3 +10,8 @@ let equipo ={
 console.log(equipo.estado);//undefined
 console.log(equipo.marca);//'Massey Ferguson'
 console.log(equipo.tipo);//'tractor'
+
+
+equipo.tipo = 'camioneta';
+
+console.log(equipo)
