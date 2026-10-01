@@ -11,7 +11,7 @@ herramientas.push('gata hidraulica');
 //push agrega al final del arreglo
 
 herramientas.unshift('sierra')
-//unshift agrega al final
+//unshift agrega al inicio
 
 herramientas[4]= 'Tester';
 herramientas.push('taladro')
