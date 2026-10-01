@@ -1,0 +1,5 @@
+# Progreso
+dia 1: practica con git y creacion de repositorio, subiendo cambios a github
+dia 2:practica con datos primitivos arrays,objetos y funciones basicos
+dia 3:funciones , if else,condicionales
+dia 4 :arreglos,funciones ,for
