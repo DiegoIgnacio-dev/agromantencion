@@ -24,7 +24,7 @@ console.log(persona);
 //accediendo a valores de un objeto
 console.log(persona.nombre); 
 console.log(persona.dni);
-
+console.log(persona.direccion.ciudad);
 //destructuring de objetos
 
 // let {} = objeto
@@ -33,3 +33,19 @@ let {nombre,dni}= persona;
 console.log(nombre);
 let rut = dni;
 console.log(rut)
+
+
+const maquina = {
+    id: 1,
+    marca: "John Deere",
+    modelo: "6110",
+    horas: 4820
+};
+
+
+function mostrarMaquina(maquina) {
+    console.log(maquina.marca+'--'+maquina.horas+ ' horas');
+  }
+
+
+  mostrarMaquina(maquina)
